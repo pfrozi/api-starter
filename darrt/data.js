@@ -20,10 +20,9 @@ exports.props = [
 ];
 
 // required properties
-exports.reqd = ['id','email','status'];
+exports.reqd = ['id', 'email', 'status'];
 
 // enumerated properties
-exports.enums = [
-  {status:['pending','active','suspended','closed']}
-];
-
+exports.enums = [{
+  status: ['pending', 'active', 'suspended', 'closed']
+}];
